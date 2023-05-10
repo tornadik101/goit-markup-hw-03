@@ -1,0 +1,207 @@
+/*!================== Body style=============== */
+
+:root {
+    --background-color: #ffffff;
+    --heading-main-color:#2e2f42;
+    --bg-btn-white:#F4F4FD;
+    --p-text-color:#434455;
+}
+
+
+
+
+body {
+  font-family: "Roboto",sans-serif;
+  color: #434455;
+  background-color: var(--background-color);
+}
+
+/*!================ Header style================== */
+.page-header a {
+  text-decoration: none;
+}
+.link{
+    text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway",sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.studio {
+    font-family: "Raleway",sans-serif;
+   color: var(--heading-main-color);
+}
+
+.color-link{
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--heading-main-color);
+}
+
+.social-links .color-link{
+    color: #434455;
+}
+
+.social-links .color-link:hover,
+.social-links .color-link:focus{
+    color: #404BBF;
+}
+
+.menu .color-link:hover,
+.menu .color-link:focus{
+    color: #404BBF;
+}
+
+.btn:hover,
+.btn:focus{
+    background-color: #404BBF;
+    color: #ffffff;
+}
+
+.btn{
+    font-family:inherit;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+        background-color: var(--bg-btn-white);
+        cursor: pointer;
+}
+
+/*!================ Main=============== */
+
+
+.main-btn:hover,
+.main-btn:focus{
+    background: #404BBF;    
+}
+
+.main-baner {
+  background: #2e2f42;
+}
+
+.baner-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--background-color)
+}
+
+.main-btn {
+  font-family: inherit;  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color:#ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+
+
+.list {
+  list-style: none;
+}
+/*!================= list of skills================= */
+
+.list h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--heading-main-color);
+}
+
+.text-content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--p-text-color);
+}
+
+/*!=================== What are we doing============== */
+
+.link-item{
+    background-color: #ffffff;
+}
+.title-two {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--heading-main-color);
+}
+
+.title-three {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--heading-main-color);
+}
+
+/*! +===============Our Team================= */
+.our-team{
+    background-color: #F4F4FD;
+}
+
+.sub-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color: var(--heading-main-color);
+}
+/* footer */
+
+.page-footer {
+  background-color: #2e2f42;
+}
+
+.page-address{
+    font-style: normal;
+}
+
+.white {
+  color: #f4f4fd;
+}
+
+.page-footer a {
+  text-decoration: none;
+}
+
+.text-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
