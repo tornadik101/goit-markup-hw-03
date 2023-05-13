@@ -5,63 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goit-markup-hw-02</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header -->
 
     <header class="page-header">
-      <nav class="page-nav">
-        <a class="logo link" href="./index.html"
-          >Web<span class="studio">Studio</span></a
-        >
-        <ul class="menu list">
-          <li class="link list">
-            <a class="color-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="link list">
-            <a class="color-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="link list">
-            <a class="color-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="page-address">
-        <ul class="social-links list">
-          <li class="link list">
-            <a class="color-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="link list">
-            <a class="color-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container page-header-container">
+        <nav class="page-nav">
+          <a class="logo link" href="./index.html"
+            >Web<span class="studio">Studio</span></a
+          >
+          <ul class="menu list">
+            <li class="link list header-li">
+              <a class="color-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="link list header-li">
+              <a class="color-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="link list header-li">
+              <a class="color-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="page-address">
+          <ul class="social-links list">
+            <li class="link list">
+              <a
+                class="color-link-address link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="link list">
+              <a
+                class="link number-tel color-link-address"
+                href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <!-- Main -->
 
     <main>
-      <section class="main-baner">
-        <h1 class="baner-text">Effective Solutions for Your Business</h1>
-        <button class="main-btn" type="button">Order Service</button>
-      </section>
+      <div class="container">
+        <section class="main-baner main-baner-wraper">
+          <div class="baner-text-wraper">
+            <h1 class="baner-text">Effective Solutions for Your Business</h1>
+          </div>
+          <button class="main-btn" type="button">Order Service</button>
+        </section>
+      </div>
 
       <!-- list of skills -->
 
-      <section class="skills-list">
+      <section class="container skills-list">
         <h2 class="hidden" hidden>
           About Us
           <!-- (hide with css) -->
@@ -137,13 +149,17 @@
         <ul class="team list">
           <li class="link-item list">
             <img src="./images/foto1.jpg" alt="Tom" width="264" height="260" />
-            <h3 class="title-three">Mark Guerrero</h3>
-            <p class="text-content">Product Designer</p>
+            <div class="sub-title-wraper">
+              <h3 class="title-three">Mark Guerrero</h3>
+              <p class="text-content">Product Designer</p>
+            </div>
           </li>
           <li class="link-item list">
             <img src="./images/foto2.jpg" alt="mark" width="264" height="260" />
-            <h3 class="title-three">Tom Ford</h3>
-            <p class="text-content">Frontend Developer</p>
+            <div class="sub-title-wraper">
+              <h3 class="title-three">Tom Ford</h3>
+              <p class="text-content">Frontend Developer</p>
+            </div>
           </li>
           <li class="link-item list">
             <img
@@ -152,8 +168,10 @@
               width="264"
               height="260"
             />
-            <h3 class="title-three">Camila Garcia</h3>
-            <p class="text-content">Marketing</p>
+            <div class="sub-title-wraper">
+              <h3 class="title-three">Camila Garcia</h3>
+              <p class="text-content">Marketing</p>
+            </div>
           </li>
           <li class="link-item list">
             <img
@@ -162,8 +180,10 @@
               width="264"
               height="260"
             />
-            <h3 class="title-three">Daniel Wilson</h3>
-            <p class="text-content">UI Designer</p>
+            <div class="sub-title-wraper">
+              <h3 class="title-three">Daniel Wilson</h3>
+              <p class="text-content">UI Designer</p>
+            </div>
           </li>
         </ul>
       </section>
@@ -172,13 +192,17 @@
     <!-- footer -->
 
     <footer class="page-footer">
-      <a class="logo link" href="./index.html"
-        >Web<span class="studio white">Studio</span></a
-      >
-      <p class="text-footer">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <div class="footer-wraper">
+          <a class="logo link" href="./index.html"
+            >Web<span class="studio white">Studio</span></a
+          >
+          <p class="text-footer">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
