@@ -74,9 +74,9 @@ img{
   gap: 40px;
 }
 
-/* .header-li:not(:last-child){
-  margin-right: 40px;
-} */
+.header-li{
+  padding: 24px 0;
+}
 
 .social-links{
   display: flex;
@@ -273,6 +273,7 @@ img{
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 8px
   color: var(--heading-main-color);
 }
 
@@ -391,6 +392,7 @@ img{
 .title-wraper{
   margin-top: 32px;
   padding-left: 16px;
+  border: 1px solid #e7e9fc
 }
 
 .menu-option{
