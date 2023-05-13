@@ -6,6 +6,7 @@
     --bg-btn-white:#F4F4FD;
     --p-text-color:#434455;
     --btn-bg-color:#4d5ae5;
+    --btn-color-x:#e7e9fc;
 }
 
 
@@ -95,13 +96,31 @@ img{
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
+  display:inline-block;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
 }
+
+.logo-footer{
+  font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: inline-block;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-bottom: 16px;
+}
+
+
+
+
 .studio {
     font-family: "Raleway",sans-serif;
    color: var(--heading-main-color);
@@ -149,6 +168,7 @@ img{
 .btn:focus{
     background-color: #404BBF;
     color: #ffffff;
+    border: 1px solid transparent;
 }
 
 .btn{
@@ -163,7 +183,8 @@ img{
         cursor: pointer;
         border-radius: 4px;
         display: block;
-        padding: 12px 24px;      
+        padding: 12px 24px;
+        border: 1px solid var(--btn-color-x);
 }
 
 
@@ -221,7 +242,6 @@ img{
   display: flex;
   gap: 24px;
 }
-
 
 .list h3 {
   font-style: normal;
@@ -281,9 +301,13 @@ img{
 /*! +===============Our Team================= */
 .our-team{
     background-color: #F4F4FD;
-    padding-bottom: 120px;
-    
+    padding: 120px 0;   
 }
+
+.one-element{
+  border-radius: 0px 0px 4px 4px;
+}
+
 
 .team{
   display: flex;
@@ -303,7 +327,7 @@ img{
 }
 
 .sub-title-wraper{
-    padding: 32px 15px;
+    padding: 32px 16px;
     text-align: center;
 }
 
@@ -339,6 +363,7 @@ img{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
   color: #f4f4fd;
 }
 
@@ -354,7 +379,7 @@ img{
   justify-content:center;
   gap: 24px;
   padding-top: 72px;
-  padding-bottom: 120px;
+  margin-bottom: 72px;
 }
 
 .gallery-img-wraper .content-wraper{
@@ -368,5 +393,5 @@ img{
 }
 
 .menu-option{
-  padding-top: 96px;
+  padding: 96px 0 120px;
 }
