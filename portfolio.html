@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -60,149 +64,151 @@
 
     <!-- menu -->
     <main>
-      <section class="menu-option">
-        <h1 class="hidden" hidden>
-          hidden About Us
-          <!-- (hide with css) -->
-        </h1>
-        <ul class="button-list list">
-          <li class="list"><button type="button" class="btn">All</button></li>
-          <li class="list">
-            <button class="btn" type="button">Web Site</button>
-          </li>
-          <li class="list">
-            <button class="btn" type="button">App</button>
-          </li>
-          <li class="list">
-            <button class="btn" type="button">Design</button>
-          </li>
-          <li class="list">
-            <button class="btn" type="button">Marketing</button>
-          </li>
-        </ul>
+      <div class="container">
+        <section class="menu-option">
+          <h1 class="hidden" hidden>
+            hidden About Us
+            <!-- (hide with css) -->
+          </h1>
+          <ul class="button-list list">
+            <li class="list"><button type="button" class="btn">All</button></li>
+            <li class="list">
+              <button class="btn" type="button">Web Site</button>
+            </li>
+            <li class="list">
+              <button class="btn" type="button">App</button>
+            </li>
+            <li class="list">
+              <button class="btn" type="button">Design</button>
+            </li>
+            <li class="list">
+              <button class="btn" type="button">Marketing</button>
+            </li>
+          </ul>
 
-        <!-- main content -->
+          <!-- main content -->
 
-        <ul class="list gallery-img-wraper">
-          <li class="lists content-wraper">
-            <a class="main-content link" href="#"
-              ><img
-                src="./images/portfolio/img1.jpg"
-                alt="pictures"
-                width="360"
-              />
-              <div class="title-wraper">
-                <h2 class="title-two">Banking App Interface Concept</h2>
-                <p class="text-content">App</p>
-              </div>
-            </a>
-          </li>
-          <li class="lists content-wraper">
-            <a class="main-content link" href="#"
-              ><img
-                src="./images/portfolio/img2.jpg"
-                alt="pictures"
-                width="360"
-              />
-              <div class="title-wraper">
-                <h2 class="title-two">Cashless Payment</h2>
-                <p class="text-content">Marketing</p>
-              </div>
-            </a>
-          </li>
-          <li class="lists content-wraper">
-            <a class="main-content link" href="#"
-              ><img
-                src="./images/portfolio/img3.jpg"
-                alt="pictures"
-                width="360"
-              />
-              <div class="title-wraper">
-                <h2 class="title-two">Meditation App</h2>
-                <p class="text-content">App</p>
-              </div>
-            </a>
-          </li>
-          <li class="lists content-wraper">
-            <a class="main-contents link" href="#"
-              ><img
-                src="./images/portfolio/img4.jpg"
-                alt="pictures"
-                width="360"
-              />
-              <div class="title-wraper">
-                <h2 class="title-two">Taxi Service</h2>
-                <p class="text-content">Marketing</p>
-              </div>
-            </a>
-          </li>
-          <li class="lists content-wraper">
-            <a class="main-contents link" href="#"
-              ><img
-                src="./images/portfolio/img5.jpg"
-                alt="pictures"
-                width="360"
-              />
-              <div class="title-wraper">
-                <h2 class="title-two">Screen Illustrations</h2>
-                <p class="text-content">Design</p>
-              </div>
-            </a>
-          </li>
-          <li class="lists content-wraper">
-            <a class="main-contents link" href="#"
-              ><img
-                src="./images/portfolio/img7.jpg"
-                alt="pictures"
-                width="360"
-              />
-              <div class="title-wraper">
-                <h2 class="title-two">Online Courses</h2>
-                <p class="text-content">Marketing</p>
-              </div>
-            </a>
-          </li>
-          <li class="lists content-wraper">
-            <a class="main-contents link" href="#"
-              ><img
-                src="./images/portfolio/img7.jpg"
-                alt="pictures"
-                width="360"
-              />
-              <div class="title-wraper">
-                <h2 class="title-two">Instagram Stories Concept</h2>
-                <p class="text-content">Design</p>
-              </div>
-            </a>
-          </li>
-          <li class="lists content-wraper">
-            <a class="main-contents link" href="#"
-              ><img
-                src="./images/portfolio/img8.jpg"
-                alt="pictures"
-                width="360"
-              />
-              <div class="title-wraper">
-                <h2 class="title-two">Organic Food</h2>
-                <p class="text-content">Web Site</p>
-              </div>
-            </a>
-          </li>
-          <li class="lists content-wraper">
-            <a class="main-contents link" href="#"
-              ><img
-                src="./images/portfolio/img9.jpg"
-                alt="pictures"
-                width="360"
-              />
-              <div class="title-wraper">
-                <h2 class="title-two">Fresh Coffee</h2>
-                <p class="text-content">Web Site</p>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </section>
+          <ul class="list gallery-img-wraper">
+            <li class="lists content-wraper">
+              <a class="main-content link" href="#"
+                ><img
+                  src="./images/portfolio/img1.jpg"
+                  alt="pictures"
+                  width="360"
+                />
+                <div class="title-wraper">
+                  <h2 class="title-two">Banking App Interface Concept</h2>
+                  <p class="text-content">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="lists content-wraper">
+              <a class="main-content link" href="#"
+                ><img
+                  src="./images/portfolio/img2.jpg"
+                  alt="pictures"
+                  width="360"
+                />
+                <div class="title-wraper">
+                  <h2 class="title-two">Cashless Payment</h2>
+                  <p class="text-content">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="lists content-wraper">
+              <a class="main-content link" href="#"
+                ><img
+                  src="./images/portfolio/img3.jpg"
+                  alt="pictures"
+                  width="360"
+                />
+                <div class="title-wraper">
+                  <h2 class="title-two">Meditation App</h2>
+                  <p class="text-content">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="lists content-wraper">
+              <a class="main-contents link" href="#"
+                ><img
+                  src="./images/portfolio/img4.jpg"
+                  alt="pictures"
+                  width="360"
+                />
+                <div class="title-wraper">
+                  <h2 class="title-two">Taxi Service</h2>
+                  <p class="text-content">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="lists content-wraper">
+              <a class="main-contents link" href="#"
+                ><img
+                  src="./images/portfolio/img5.jpg"
+                  alt="pictures"
+                  width="360"
+                />
+                <div class="title-wraper">
+                  <h2 class="title-two">Screen Illustrations</h2>
+                  <p class="text-content">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="lists content-wraper">
+              <a class="main-contents link" href="#"
+                ><img
+                  src="./images/portfolio/img7.jpg"
+                  alt="pictures"
+                  width="360"
+                />
+                <div class="title-wraper">
+                  <h2 class="title-two">Online Courses</h2>
+                  <p class="text-content">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="lists content-wraper">
+              <a class="main-contents link" href="#"
+                ><img
+                  src="./images/portfolio/img7.jpg"
+                  alt="pictures"
+                  width="360"
+                />
+                <div class="title-wraper">
+                  <h2 class="title-two">Instagram Stories Concept</h2>
+                  <p class="text-content">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="lists content-wraper">
+              <a class="main-contents link" href="#"
+                ><img
+                  src="./images/portfolio/img8.jpg"
+                  alt="pictures"
+                  width="360"
+                />
+                <div class="title-wraper">
+                  <h2 class="title-two">Organic Food</h2>
+                  <p class="text-content">Web Site</p>
+                </div>
+              </a>
+            </li>
+            <li class="lists content-wraper">
+              <a class="main-contents link" href="#"
+                ><img
+                  src="./images/portfolio/img9.jpg"
+                  alt="pictures"
+                  width="360"
+                />
+                <div class="title-wraper">
+                  <h2 class="title-two">Fresh Coffee</h2>
+                  <p class="text-content">Web Site</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
     <!-- footer -->
 

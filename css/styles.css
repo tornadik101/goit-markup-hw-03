@@ -5,6 +5,7 @@
     --heading-main-color:#2e2f42;
     --bg-btn-white:#F4F4FD;
     --p-text-color:#434455;
+    --btn-bg-color:#4d5ae5;
 }
 
 
@@ -59,6 +60,8 @@ img{
 .page-header{
   padding-top: 24px;
   padding-bottom: 24px;
+  /* width: 1158px; */
+  border-bottom: 1px solid #e7e9fc; 
 }
 
 .page-nav{
@@ -69,6 +72,7 @@ img{
 .menu{
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .header-li:not(:last-child){
@@ -180,7 +184,7 @@ img{
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  width: 550px;
+  max-width: 496px;
   margin: 0 auto;
   color: var(--background-color)
 }
@@ -193,14 +197,15 @@ img{
   line-height: 1.5;
   letter-spacing: 0.04em;
   color:#ffffff;
-  background-color: #4d5ae5;
+  background-color: var(--btn-bg-color);
   cursor: pointer;
   margin: 0 auto;
   margin-top: 48px;
   padding: 16px 32px;
   border-radius: 4px;
-  border: 0;
+  border: none;
   min-width: 169px;
+  height: 56px;
   display: block;
 }
 
