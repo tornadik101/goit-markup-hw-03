@@ -337,7 +337,6 @@ img{
 .sub-title-wraper{
     padding: 32px 16px;
     border:1px solid #e7e9fc;
-    text-align: center;
 }
 
 /* footer */
@@ -394,7 +393,7 @@ img{
 
 
 .title-wraper{
-  margin-top: 32px 16px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   text-align: start;
