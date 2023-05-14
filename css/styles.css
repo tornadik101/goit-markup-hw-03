@@ -260,9 +260,22 @@ img{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
   margin-bottom: 8px;
   color: var(--p-text-color);
 }
+
+.text-content-portf{
+  font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    color: var(--p-text-color);
+}
+
+
 
 /*!=================== What are we doing============== */
 
@@ -288,6 +301,7 @@ img{
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
   margin-bottom: 8px;
   color: var(--heading-main-color);
 }
