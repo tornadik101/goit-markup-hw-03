@@ -236,9 +236,14 @@ img{
 
 .skills{
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
+
+.first-element{
+  width: calc((100% - 72px) / 4);
+}
 
 .list h3 {
   font-style: normal;
@@ -263,6 +268,7 @@ img{
 
 .link-item{
     background-color: #ffffff;
+    
 }
 .title-two {
   font-style: normal;
@@ -287,7 +293,8 @@ img{
 
 .gallery{
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  flex-wrap: wrap;
   gap: 24px;
 
 }
@@ -303,13 +310,15 @@ img{
 }
 
 .one-element{
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
 
 .team{
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  /* justify-content: center; */
   gap: 24px; 
 }
 
