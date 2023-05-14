@@ -118,9 +118,6 @@ img{
 .studio {
     font-family: "Raleway",sans-serif;
    color: var(--heading-main-color);
-   /* padding: 24px 0; */
-   display: inline block;
-   margin-bottom: 16px;
 }
 
 .color-link{
