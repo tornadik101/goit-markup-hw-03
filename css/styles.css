@@ -9,7 +9,6 @@
     --btn-color-x:#e7e9fc;
 }
 
-
 body {
   font-family: "Roboto",sans-serif;
   color: #434455;
@@ -43,7 +42,6 @@ img{
 
 
 /*!================ Header style================== */
-
 
 .container{
   width: 1200px;
@@ -113,9 +111,6 @@ img{
     margin-bottom: 16px;
 }
 
-
-
-
 .studio {
     font-family: "Raleway",sans-serif;
    color: var(--heading-main-color);
@@ -140,7 +135,6 @@ img{
     color: var(--p-text-color);
 }
 
-
 .social-links .color-link{
     color: #434455;
 }
@@ -154,7 +148,6 @@ img{
 .color-link-address:focus{
   color: #404BBF;
 }
-
 
 .menu .color-link:hover,
 .menu .color-link:focus{
@@ -183,7 +176,6 @@ img{
         padding: 12px 24px;
         border: 1px solid var(--btn-color-x);
 }
-
 
 /*!================ Main=============== */
 
@@ -272,11 +264,9 @@ img{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
     color: var(--p-text-color);
 }
-
-
 
 /*!=================== What are we doing============== */
 
@@ -322,7 +312,7 @@ img{
 /*! +===============Our Team================= */
 .our-team{
     background-color: #F4F4FD;
-    padding: 120px 0;   
+    /* padding: 120px 0;    */
 }
 
 .one-element{
@@ -405,7 +395,6 @@ img{
   gap: 24px;
   row-gap: 48px;
 }
-
 
 .title-wraper{
   padding: 32px 16px;
